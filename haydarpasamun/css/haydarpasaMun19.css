@@ -1,0 +1,457 @@
+
+#navbarSupportedContent{
+	margin:15px;
+	font-size: 20px;
+}
+#menu{
+	text-decoration:bold;
+	font-size: 22px;
+}
+#menu :hover{
+	border-bottom:1px solid white;
+}
+
+.navbar-nav>li {
+        float: right;
+    }
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+.site-footer .site-info {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.site-footer .site-info a {
+  color: #fff;
+}
+.site-footer .social-block li a {
+  color: #fff;
+}
+.site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
+  opacity: 0.8;
+}
+#mail{
+	text-decoration:none;
+}
+#mail:hover {
+	border-bottom:1px solid #fff;
+}
+.logos{
+	padding:0 3px;
+}
+.first-section{
+	margin-top:111px;
+}
+@media only screen and (max-width: 992px) {
+	.first-section-home{
+		margin-top:55px;
+	}
+}
+
+.second-section{
+	margin-top:50px;
+}
+.section-title{
+	padding:5px 0;
+}
+@media only screen and (max-width: 992px) {
+	.section-title{
+	text-align:center;
+	}
+	.committiescenter{
+	text-align:center !important;
+	}
+
+}
+.committees{
+	margin:30px 25px 34px 25px;
+
+}
+.bg {
+    background-image: url("images/home.jpg");
+    height: 100%;
+	width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgIstanbul {
+    background-image: url("images/Istanbul.jpg");
+    height: 100%;
+	width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homeh1{
+   text-align: center;
+  color:#fff;
+  font-size: 5rem;
+  font-weight: 550;
+}
+.homeh2{
+  text-align: center;
+  color:#fff;
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding-top:30px;
+}
+.homeText{
+  position: relative;
+  text-align: center;
+ padding-top:180px;
+}
+.study-guides{
+	color: #000 !important;
+
+
+}
+.study-guides:hover{
+	color: #77000D !important;
+	text-decoration: none;
+	border-bottom: 2px #77000D solid;
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .homeh1{
+  text-align: center;
+  color:#fff;
+  font-size: 3rem !important;
+
+}
+.homeh2{
+  text-align: center;
+  color:#fff;
+  font-size: 2rem;
+
+  padding-top:35px;
+}
+.homeText{
+  position: relative;
+  text-align: center;
+ padding-top:45px;
+
+}
+
+}
+}
+.btn-white {
+  color: #000;
+  background-color: #fff;
+}
+.btn-white:hover, .btn-white:focus {
+  color: #000;
+  background-color: #fff;
+}
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 6px 28px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+}
+.btn:hover {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.welcome-letters{
+	margin:70px 0;
+	font-size:18px;
+	font-weight:350;
+	color:#000;
+
+}
+
+#wmh1{
+	color:#000;
+}
+.secondwm{
+	padding-top:30px;
+}
+.wmb{
+	font-size:22px;
+}
+.modal-header{
+	color:#fff;
+	background-color:#790102;
+}
+.accordion {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+	margin:13px 0px;
+}
+
+.active, .accordion:hover {
+    background-color: #000;
+}
+
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+	float: left;
+    margin-right: 10px;
+}
+
+.active:after {
+    content: "\2212";
+	color: #fff;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.faq{
+	margin:120px 0;
+	text-align:justify;
+	font-size:20px;
+	font-weight:250;
+	color:#000;
+}
+.hoverShow1 {
+  display: none;
+}
+
+.hoverWrapper:hover + .hoverShow1 {
+  display: block;
+}
+.hoverShow1:hover {
+  display: block;
+}
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+	margin-bottom:3px;
+	margin-left:2px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.hoverWrapper:hover i{
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+	margin-bottom:3px;
+	margin-left:2px;
+}
+.previousEditions{
+	padding-bottom:50px;
+}
+.premunh2{
+	text-align:center;
+	color:#000;
+	text-decoration:none;
+}
+.premunh2:hover{
+	color:#790102;
+	text-decoration:none !important;
+}
+.premunimages:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(50%);
+}
+.hpal-schedule-content {
+  padding: 0;
+
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content {
+    padding: 10px 30px;
+  }
+}
+.hpal-schedule-content .hpal-schedule-container {
+  font-size: 16px;
+  padding: 15px 0;
+  text-align: center;
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content .hpal-schedule-container {
+    font-size: 14px;
+  }
+}
+.hpal-schedule-content .hpal-schedule-container .hpal-schedule-table {
+  width: 550px;
+  margin: 0 auto;
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content .hpal-schedule-container .hpal-schedule-table {
+    width: 100%;
+  }
+}
+.hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-header {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #a10000;
+  border-bottom: 2px solid #a10000;
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-header {
+    font-size: 14px;
+  }
+}
+.hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-time {
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #761c19;
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-time {
+    width: 30%;
+    font-size: 12px;
+  }
+}
+.hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-event {
+  width: 400px;
+  color: #414b4f;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+@media (max-width: 999px) {
+  .hpal-schedule-content .hpal-schedule-container .hpal-schedule-table .hpal-schedule-table-event {
+    width: 70%;
+    font-size: 16px;
+  }
+}
+.conference{
+	font-size:22px;
+}
+.map{
+	padding-bottom:50px;
+}
+.location{
+	padding-top:111px;
+}
+.schedule-box {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin: 25px 0 0;
+  padding-bottom: 10px;
+}
+.schedule-box::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #fff;
+}
+.applyButton{
+	text-align:center;
+	margin:15px;
+	font-size:24px;
+}
+.clear{
+	clear:both;
+}
+.workshop{
+	  position: relative;
+	text-align:center;
+}
+.mAuto{
+	margin-right:auto;
+	margin-left:auto;
+	float:left;
+}
+body{
+  max-width:100%;
+  overflow-x: hidden;
+}
+.navbar-default{
+  max-width:100% !important;
+}
+
+@media only screen and (min-width: 992px) {
+	.carddiv1{
+		width:50%;
+		float:left
+	}
+	.carddiv2{
+		width:50%;
+		float:right;
+	}
+}
+.cardtitle{
+	padding:15px 5px;
+}
+nav.navbar.fixed-top {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+    nav.navbar.fixed-top {
+        overflow-y: visible;
+    }
+}
+.contactUs{
+	text-align:center;
+	text-decoration:none;
+	color:#000 !important;
+}
+.contactUs a:hover{
+	color:#fff !important;
+	background-color:#000;
+	text-decoration:none;
+}
+.cimg{
+	height:320px;
+	width:320;
+	text-align:center
+	}
+@media only screen and (max-width: 992px) {
+	.cimg{
+	height:243px;
+	width:243px;
+	text-align:center
+	}
+}
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}

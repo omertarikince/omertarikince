@@ -1,0 +1,408 @@
+<html lang="en">
+	<head>
+		<title>Haydarpa&#351;a Model United Nations'19</title>
+
+		<link rel="stylesheet" type="text/css" href="css/haydarpasaMun19.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery/jquery-3.3.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/haydarpasaMun19.js"></script>
+	</head>
+	<body>
+		<button id="myBtn"type="button"  onclick="window.open('', '_self', ''); window.close();" class="btn btn-light">&nbsp;&nbsp;<span aria-hidden="true">&times;</span>&nbsp;&nbsp;</button>
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" style="background-color: #000;" style="position:relative;">
+			  <a class="navbar-brand pl-xl-5 pl-lg-4 pl-md-3 pl-sm-0" href="index.html"><img src="images/logo.png" height="85" width="85"></a>
+			  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div  class="collapse navbar-collapse menu" id="navbarSupportedContent">
+				<ul id="menu" class="navbar-nav ml-auto pr-xl-5 pr-lg-4 pr-md-3 pr-sm-0">
+				  <li class="nav-item">
+					<a class="nav-link" href="index.html"><b>Home</b></a>
+				  </li>
+				   <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="dropdown-committees" href="#" id="navbarDropdown">
+					 <b>Committees</b>
+					</a>
+					<div class="dropdown-menu" id="dropdown-menu-committees" aria-labelledby="navbarDropdown">
+
+					  <a class="dropdown-item" href="committees.html#ecosoc"><b>Economic and Social Council(ECOSOC)</b></a>
+					  <a class="dropdown-item" href="committees.html#unhrc"><b>United Nations Human Rights Council</b></a>
+					  <a class="dropdown-item" href="committees.html#intaea"><b>International Atomic Energy Agency</b></a>
+					  <a class="dropdown-item" href="committees.html#imo"><b>International Maritime Organisation</b></a>
+					  <a class="dropdown-item" href="committees.html#unsc"><b>United Nations Security Council Counter Terrorism Committee</b></a>
+					  <a class="dropdown-item" href="committees.html#interpol"><b>International Criminal Police Organisation (INTERPOL)</b></a>
+					  <a class="dropdown-item" href="committees.html#jcc"><b>Joint Crisis Committee</b></a>
+					  <a class="dropdown-item" href="committees.html#hsc"><b>Historical Security Council</b></a>
+					  <a class="dropdown-item" href="committees.html#nc"><b>Napoleon&#39;s Cabinet</b></a>
+					  <a class="dropdown-item" href="committees.html#pc"><b>Philadelphia Congress</b></a>
+					  <a class="dropdown-item" href="committees.html#intcourtofjustice"><b>International Court of Justice</b></a>
+
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="dropdown-conference" href="#" id="navbarDropdown">
+					 <b> Conference </b>
+					</a>
+					<div class="dropdown-menu" id="dropdown-menu-conference" aria-labelledby="navbarDropdown">
+
+					  <a class="dropdown-item" href="conference.html#documentcenter"><b>Document Center</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="conference.html#venue"><b>Venue</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="conference.html#schedule"><b>Schedule</b></a>
+					  <a class="dropdown-item" href="conference.html#transportation"><b>Transportation</b></a>
+					  <a class="dropdown-item" href="conference.html#accomodation"><b>Accommodation</b></a>
+					  <a class="dropdown-item" href="conference.html#contactUs"><b>Contact Us</b></a>
+				 	</div>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="dropdown-aboutus" href="#" id="navbarDropdown">
+					 <b> About Us </b>
+					</a>
+					<div class="dropdown-menu" id="dropdown-menu-aboutus" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="secretariat.html"><b>Secretariat</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="advisoryboard.html"><b>Advisory Board</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item hoverWrapper" href="previous-editions.html"><b>Previous Editions <i class="arrow down"></i></b></a>
+					  <div class="hoverShow1">
+					  <a class="dropdown-item" href="hpalmun18.html"><b>HPALMUN'18</b></a>
+					  <a class="dropdown-item" href="hpalmun17.html"><b>HPALMUN'17</b></a>
+					  </div>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="dropdown-registration" href="#" id="navbarDropdown">
+					 <b> Registration </b>
+					</a>
+					<div class="dropdown-menu" id="dropdown-menu-registration" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="registration.html#applyasdelegate"><b>Apply as an Individual Delegate</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="registration.html#applyasdelegation"><b>Apply as a Delegation</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="registration.html#applyforworkshop"><b>Apply for Our Workshop</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="registration.html#applyasacd"><b>Apply as a Committee Director</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="registration.html#applyaspress"><b>Apply as a Press Member</b></a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="registration.html#applyforICJ"><b>Apply for ICJ</b></a>
+				 	</div>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="faq.html"><b>FAQ</b></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="istanbul.html"><b>Istanbul</b></a>
+				  </li>
+				 </ul>
+			   </div>
+			</nav>
+				<section id="conference" class="section location px-xl-5 px-lg-4 px-md-3 px-sm-1">
+						<div class="conference">
+									<div class="col-sm-3">
+									<h1 class="section-title col-md-12">Conference</h1></div>
+
+						<section  class="section location" id="documentcenter">
+								<div class="col-sm-12"><h3 class="section-title">Document Center</h3>
+
+									<div class="row">
+										<div class="col-md-12">
+
+												<button class="accordion">Study Guides</button>
+												<div class="panel">
+												  <p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1Zgu0PY3TPqZaEo-WXXCGhT2XO8luDAF9">Economic and Social Council(ECOSOC)</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1JKCOMLs_PLUDI1gtA6wsLbYXdk1_KL3e">United Nations Human Rights Council</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1aMYiHCIiiPvZCgsVkyquoAlyfnVK2rb8">International Atomic Energy Agency</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=16YaphCGidQ7d2cCgZJJP-QyvLfVHUIpd">International Maritime Organisation</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1mFe-bryhALlOVX87wyMlcDGgM_qM69w7">United Nations Security Council Counter Terrorism Committee</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1-gE3eh2H9AHNw4iHeqnEXrYfpRYkuQs6">International Criminal Police Organisation (INTERPOL)</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1o96pzA_7P84HvJfuMJNFNL1F7yIU1EcT">Joint Crisis Committee</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1lkgWOpZRL3KqogIDdi5Prv9qnvVNA7GK">Historical Security Council</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=11F8CImjUE7uooNZAQ8RZmZzVFyFs14rY">Napoleon&#39;s Cabinet</a></p>
+													<p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1u1SsktQz7rki30xLQoI2n6wCpj711zv5">Philadelphia Congress</a></p>
+												</div>
+
+												<button class="accordion">Rules of Procedure</button>
+												<div class="panel">
+												  <p><a class="study-guides col-sm-12" target="_blank" href="https://drive.google.com/open?id=1FCkUudvj0YeVtZYrXalyTG3koBlid5wp">Rules of Procedure Haydarpa&#351;a</a></p>
+												</div>
+											</div>
+										</div>
+												<br><br><p></p></div><div class="col-sm-12"></div></section>
+						<hr>
+
+						<section  class="section location" id="venue">
+								<div class="col-sm-12"><h3 class="section-title">Venue</h3>
+
+									<div class="row">
+										<div class="col-sm-12">
+															<address>
+
+																<ul><li>Haydarpa&#351;a Highschool</li></ul>
+													</address>
+												</div>
+												<div class="col-md-12 map">
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3756404338387!2d29.04437231565846!3d41.01703702683414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac801faa74807%3A0x740fa7e1ab667d36!2sHaydarpa%C5%9Fa+Lisesi!5e0!3m2!1str!2str!4v1537136853432" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+											</div>
+										</div>
+												<br><br><p></p></div><div class="col-sm-12"></div></section>
+						<hr>
+
+			<section id="schedule" class="section location">
+                       <div class="col-sm-12">                       <h3 class="section-title">Schedule</h3>
+
+				<div class="hpal-schedule-content">
+      <div class="hpal-schedule-container">
+        <table class="hpal-schedule-table">
+          <tbody><tr>
+				<td class="hpal-schedule-table-header" colspan="2">28 January 2019</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">12.30 &ndash;  13.30</td>
+				<td class="hpal-schedule-table-event">Reception, Registration</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">13.30 &ndash;  15.00 </td>
+				<td class="hpal-schedule-table-event">Opening Ceremony</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.00 &ndash;  15.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.30 &ndash;  17.00</td>
+				<td class="hpal-schedule-table-event">Session 1</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">17.00 &ndash;  17.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+			  <td class="hpal-schedule-table-time">17.30 &ndash;  19.00</td>
+				<td class="hpal-schedule-table-event">Session 2</td>
+			  </tr>
+        </tbody></table>
+        <table class="hpal-schedule-table">
+          <tbody><tr>
+				<td class="hpal-schedule-table-header" colspan="2">29 January 2019</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">09.00 &ndash;  10.30</td>
+				<td class="hpal-schedule-table-event">Session 3</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">10.30 &ndash;  11.00</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">11.00 &ndash;  12.00</td>
+				<td class="hpal-schedule-table-event">Session 4</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">12.00 &ndash;  13.30 </td>
+				<td class="hpal-schedule-table-event">Lunch Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">13.30 &ndash;  15.00</td>
+				<td class="hpal-schedule-table-event">Session 5</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.00 &ndash;  15.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.30 &ndash;  17.00</td>
+				<td class="hpal-schedule-table-event">Session 6</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">17.00 &ndash;  17.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">17.30-19.00</td>
+				<td class="hpal-schedule-table-event">Session 7</td>
+			  </tr>
+			</tbody></table>
+			<table class="hpal-schedule-table">
+			  <tbody><tr>
+				<td class="hpal-schedule-table-header" colspan="2">30 January 2019</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">09.00 &ndash;  10.30</td>
+				<td class="hpal-schedule-table-event">Session 8</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">10.30 &ndash;  11.00</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">11.00 &ndash;  12.00</td>
+				<td class="hpal-schedule-table-event">Session 9</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">12.00 &ndash;  13.30</td>
+				<td class="hpal-schedule-table-event">Lunch Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">13.30 &ndash;  15.00</td>
+				<td class="hpal-schedule-table-event">Session 10</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.00 &ndash;  15.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.30 &ndash;  17.00</td>
+				<td class="hpal-schedule-table-event">Session 11</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">17.00 &ndash;  17.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <td class="hpal-schedule-table-time">17.30 &ndash;  19.00</td>
+				<td class="hpal-schedule-table-event">Session 12</td>
+			  </tr>
+			</tbody></table>
+			<table class="hpal-schedule-table">
+			  <tbody><tr>
+				<td class="hpal-schedule-table-header" colspan="2">31 January 2019</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">09.00 &ndash;  10.30</td>
+				<td class="hpal-schedule-table-event">Session 13</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">10.30 &ndash;  11.00</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">11.00 &ndash;  12.00</td>
+				<td class="hpal-schedule-table-event">Session 14</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">12.00 &ndash;  13.30</td>
+				<td class="hpal-schedule-table-event">Lunch Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">13.30 &ndash;  15.00</td>
+				<td class="hpal-schedule-table-event">Session 15</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.00 &ndash;  15.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">15.30 &ndash;  17.00</td>
+				<td class="hpal-schedule-table-event">Session 16</td>
+			  </tr>
+			   <tr>
+				<td class="hpal-schedule-table-time">17.00 &ndash;  17.30</td>
+				<td class="hpal-schedule-table-event">Coffee Break</td>
+			  </tr>
+			  <tr>
+				<td class="hpal-schedule-table-time">17.30 &ndash;  19.00</td>
+				<td class="hpal-schedule-table-event">Closing Ceremony</td>
+			  </tr>
+        </tbody></table>
+      </div>
+	  <p style="font-size:17px;"><b>Social event(s) will be announced.</b></p>
+	  <p style="font-size:17px;"><b>HaydarpasaMUN has the right to make arrangements on the schedule.</b></p>
+    </div>
+<br><br></div><div class="col-sm-12"></div></section>
+
+				<section id="transportation" class="section location">
+					<h3 class="section-title">Transportation</h3>
+					  <div class="col-sm-12">
+						<p>The conference will be held in our school building which is in Ko&#351uyolu, &#220sk&#252dar. Participants coming from:
+							<br><br>
+							<b>1)</b> &#220sk&#252dar; can take Ko&#351uyolu minibuses or buses coded <b>11, 11A, 11C, 11D, 11E, 11EK, 11G, 11K, 11L, 11M, 11N, 11P, 11ST, 11&#220, 11&#220S, 11Y, 12&#220S, 139, 2, 9&#220D</b> and get off at Altunizade station.From there, school is within a 15 minutes walking distance.
+							<br><br>
+							<b>2)</b> Kad&#305k&#246y; can take <b>Ko&#351uyolu minibuses</b> and get off at Ko&#351uyolu &#304SK&#304. From there, school is within a 5 minutes walking distance.
+							<br><br>
+							<b>3)</b> Marmaray, &#220sk&#252dar, &#220mraniye; You can use the <b>&#220sk&#252dar-&#220mraniye metro line</b> to Altunizade station to our school. You need to walk for 7 minutes to arrive our venue.
+							<br><br>
+							<b>4)</b> Sabiha G&#246k&#231en Airport; You can get on the bus <b>E-10</b> to metrobus line Uzun&#231ay&#305r station. You need to use <b>metrobus line</b> to the Altunizade station. By walking 10 minutes you can arrive our venue.
+							<br><br>
+							<b>5)</b> Istanbul Atat&#252rk Airport; You can get on the bus <b>M1A</b> to <b>marmaray line</b> Yenikap&#305 Station. You need to get off the <b>marmaray</b> in &#220sk&#252dar station then interchange to the <b>&#220sk&#252dar-&#220mraniye metro line</b>. You can get off the <b>metro</b> from Altunizade station. After walking for 7 minutes you will be arrived to our venue.
+							<br><br>
+							Participants who wish to use <b>Metrobus</b> should get off at Altunizde station. From there, school is within a 15 minutes walking distance.
+						</p></div></section>
+
+						<section id="accomodation" class="section location">
+					 <h3 class="section-title">Accomodation</h3>
+						<div class="col-sm-12">
+							<address>
+								<p>Participants who wish to stay in a hotel can choose between the hotels which are very luxurious and among the best ones in the area, but we recommend the hotel we have stayed and pleased:
+							<br><br>
+								</p><ul><li><b>Holiday Inn Express Istanbul - Altunizade</b></li></ul><p></p>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.014944902716!2d29.040259315414584!3d41.024928979299126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7e30515520b%3A0xd38eb832daed7812!2sAltunizade+Mahallesi%2C+Oymac%C4%B1+Sk.+18+a%2C+34662+%C3%9Csk%C3%BCdar%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1543602208530" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<ul>
+								<br>
+								<li>Triple Room (including breakfast): 85&#8378;-16&#8364; /per night /per person</li>
+								<li>Double Room (including breakfast):100&#8378;-18&#8364; /per night /per person</li>
+								<li>Single Room (including breakfast):200&#8378;-35&#8364; /per night /per person</li>
+                    </address>
+                </div>
+
+					<div class="col-sm-12 map">
+
+					</div>
+					<p><b></b></p>
+				</section>
+				<section id="contactUs" class="section location" style="margin-bottom:60px;">
+					 <h2 class="section-title">Contact Us</h2>
+						<div class="col-sm-12 contactUs px-xl-5 px-lg-4 px-md-3 px-sm-1">
+								<p><a class="contactUs" href="mailto:secretariat@haydarpasamun.org">secretariat@haydarpasamun.org</a></p>
+								<p><a class="contactUs" href="mailto:pr@haydarpasamun.org">pr@haydarpasamun.org</a></p>
+								<p><a class="contactUs" href="finance@haydarpasamun.org">finance@haydarpasamun.org</a></p>
+                </div>
+				</section>
+			</section>
+
+
+		    <footer class="site-footer" style="background-color: #000;">
+                <div class="col-md-12">
+                    <p class="site-info mx-auto">Developed by Haydarpa&#351;a International MUN IT Department</p>
+                    <p class="site-info mx-auto">You can contact us with this e-mail: <a id="mail" href="mailto:secretariat@haydarpasamun.org">secretariat@haydarpasamun.org</a></p>
+                     <p class="site-info mx-auto">
+                        <a class="logos" href="https://twitter.com/HaydarpasaMun" target="_blank"><img src="images/twitterlogo.png" height="30" width="30"></a>
+                        <a class="logos" href="https://www.facebook.com/HaydarpasaMUN/" target="_blank"><img src="images/facebooklogo.png" height="30" width="30"></a>
+                        <a class="logos" href="https://www.instagram.com/haydarpasamun/" target="_blank"><img src="images/instagramlogo.png" height="30" width="30"></a>
+						<a class="logos" href="https://www.youtube.com/channel/UCC6sk3edDORLtb7nZg12EHw?view_as=subscriber" target="_blank"><img src="images/youtubelogo.png" height="30" width="30"></a>
+						</p>
+
+                </div>
+			</footer>
+		<script type="text/javascript">
+
+			$(".dropdown-item").on("click", function(){
+			$(".dropdown-menu").slideUp("fast");
+			});
+
+			$('.dropdown-item').on('click', function(){
+			 $(".navbar-collapse.show").collapse('toggle');
+			});
+
+					var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight){
+					  panel.style.maxHeight = null;
+					} else {
+					  panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+				});
+			}
+
+
+		</script>
+
+	</body>
+</html>
