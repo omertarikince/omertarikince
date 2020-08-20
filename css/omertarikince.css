@@ -79,6 +79,22 @@ html,body
   border-bottom:1px solid #D7B54D;
   text-decoration: none;
 }
+.siteH{
+  color:#2C8598
+}
+.siteH:hover{
+  color:#3B2C52;
+  border-bottom:1px solid #3B2C52;
+  text-decoration: none;
+}
+.siteHr{
+  color:#D7B54D
+}
+.siteHr:hover{
+  color:#2C8598;
+  border-bottom:1px solid #2C8598;
+  text-decoration: none;
+}
 @media only screen and (min-width: 992px) {
   .nav-item {
   padding-left: 30px;
@@ -111,6 +127,7 @@ html,body
   }
   .metin2{
     font-size:24px;
+    font-weight: 400;
   }
   .calismalarr{
     font-size: 24px;
@@ -135,6 +152,7 @@ html,body
   }
   .metin2r{
     font-size:24px;
+    font-weight: 400;
     color: #F3F4F6
   }
 }
@@ -150,7 +168,8 @@ html,body
     font-size: 20px;
   }
   .baslik1{
-    font-size:37px;
+    font-size:33px;
+    font-weight: 485;
   }
   .baslik2{
     font-size: 31px;
@@ -172,7 +191,7 @@ html,body
     color: #2C3037
   }
   .baslik1r{
-    font-size:37px;
+    font-size:33px;
     color: #C8CCCF
   }
   .baslik2r{
