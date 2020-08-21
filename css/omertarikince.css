@@ -168,14 +168,16 @@ html,body
     font-size: 20px;
   }
   .baslik1{
-    font-size:33px;
-    font-weight: 485;
+    font-size:24px;
+    font-weight: 450;
   }
   .baslik2{
-    font-size: 31px;
+    font-size: 28px;
+    font-weight: 550;
   }
   .baslik3{
-    font-size:37px;
+    font-size:34px;
+    font-weight: 650;
     text-align: center;
   }
   .metin1r{
@@ -191,16 +193,19 @@ html,body
     color: #2C3037
   }
   .baslik1r{
-    font-size:33px;
+    font-size:24px;
+    font-weight: 450;
     color: #C8CCCF
   }
   .baslik2r{
-    font-size: 31px;
+    font-size: 28px;
+    font-weight: 550;
     color: #C8CCCF
   }
   .baslik3r{
-    font-size:37px;
+    font-size:34px;
     text-align: center;
+    font-weight: 650;
     color: #C8CCCF
   }
   .metin1r{
