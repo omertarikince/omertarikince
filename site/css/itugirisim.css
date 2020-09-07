@@ -104,8 +104,8 @@ a:hover{
       height: 800px;
   }
   .instaIMG{
-    width: 65%!important;
-    height: 65%!important;
+    width: 85%!important;
+    height: 85%!important;
   }
   .blogImg{
     width: 65%;
@@ -366,6 +366,12 @@ a:hover{
     font-size: 48px!important;
     border-radius: 25%!important;
     margin-bottom: 85px!important;
+}
+.btn-mlarge {
+    padding: 24px 32px !important;
+    font-size: 32px!important;
+    border-radius: 25%!important;
+    margin-bottom: 45px!important;
 }
 .ykaltyazi{
   font-size: 22px;
