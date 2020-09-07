@@ -23,6 +23,26 @@ a:hover{
   font-size: 18px;
   text-align: center;
 }
+.igname{
+  color:#262626;
+  font-size: 22px;
+  font-weight: 300;
+}
+.igname:hover{
+  color:#A50E38;
+  font-size: 22px;
+  font-weight: 300;
+}
+.hashtag{
+  color:#262626;
+  font-size: 18px;
+  font-weight: 300;
+}
+.hashtag:hover{
+  color:#A50E38;
+  font-size: 18px;
+  font-weight: 300;
+}
 .navbar-brand{
   padding-left: 20px;
 }
@@ -62,7 +82,10 @@ a:hover{
     display: none;
   }
   #ürünlerMob{
-    display: none;
+    display: none ;
+  }
+  .pcNone{
+    display: none !important;
   }
   .pcIndeximg{
 
@@ -80,14 +103,18 @@ a:hover{
       width: 100%;
       height: 800px;
   }
+  .instaIMG{
+    width: 65%!important;
+    height: 65%!important;
+  }
   .blogImg{
     width: 65%;
     height: 65%;
 
   }
   .googleForm{
-    width:50%!important;
-    height: 1808px;
+    width:100%!important;
+    height: 1800px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -115,8 +142,11 @@ a:hover{
   #ürünlerPC{
     display: none !important;
   }
-  .pcNone{
-    display: none;
+  .mobNone{
+    display: none !important;
+  }
+  .fixed-bottomMob{
+    margin-top: 200px;
   }
   .girisimprojeimg{
     height: 225px !important;
@@ -266,10 +296,23 @@ a:hover{
 
 
 @media only screen and (min-width: 992px) {
+  .smlogoimg{
+    height:128px;
+  }
   .header{
     font-size:32px;
     font-weight: 550;
     font-style: oblique;
+    color:#2F312E
+  }
+  .headerIndex{
+    font-size:48px;
+    font-weight: 550;
+    color:#2F312E
+  }
+  .headerIndex2{
+    font-size:32px;
+    font-weight: 550;
     color:#2F312E
   }
   .header2{
@@ -283,32 +326,84 @@ a:hover{
     color:#2F312E
   }
   .card-title{
-    font-size:32px !important;
     font-weight: 500;
     color:#2F312E
   }
-  .card-title:hover{
-    font-size:32px;
+  .blogHeader{
     font-weight: 500;
-    color:#A50E38;
+    font-size: 26px;
+  }
+  .blogHeader:hover{
+    font-weight: 500;
+    font-size: 26px;
+    color:#A50E38
   }
   .classBlog{
-    font-size:24px;
+    font-size:22px;
     color:#2F312E
   }
   .classBlog:hover{
-    font-size:24px;
+    font-size:22px;
     color:#C76F30
   }
   .blogDate{
-    font-size:24px;
+    font-size:22px;
     color:#2F312E
   }
-
+.indexHeader{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.indexHeaderP{
+  color: #fff;
+  font-size:64px;
+  font-weight: 750;
+  text-shadow: 2px 2px 5px black;
+}
+.btn-xlarge {
+    padding: 32px 48px !important;
+    font-size: 48px!important;
+    border-radius: 25%!important;
+    margin-bottom: 85px!important;
+}
+.ykaltyazi{
+  font-size: 22px;
+}
+.ekibimizBaslik{
+  font-size:38px!important;
+}
+.headerBig{
+  font-size: 42px!important;
+  font-weight: bold;
+}
 }
 @media only screen and (max-width: 992px) {
   .smlogoimg{
     height:64px;
+  }
+  .headerIndex{
+    font-size:32px;
+    font-weight: 550;
+    color:#2F312E
+  }
+  .headerIndex2{
+    font-size:26px;
+    font-weight: 550;
+    color:#2F312E
+  }
+  .headerBig{
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .ykaltyazi{
+    font-size:22px;
+  }
+  .ekibimizBaslik{
+    font-size:28px!important;
+  }
+  .indexHeader{
+      margin-top: 65px;
   }
   .header{
     font-size:26px;
@@ -327,40 +422,127 @@ a:hover{
     color:#2F312E
   }
   .card-title{
-    font-size:28px !important;
+
     font-weight: 500;
     color:#2F312E
   }
-  .card-title:hover{
-    font-size:28px;
+  .blogHeader{
     font-weight: 500;
-    color:#A50E38;
+    font-size: 24px;
+  }
+  .blogHeader:hover{
+    font-weight: 500;
+    font-size: 24px;
+    color:#A50E38
   }
   .classBlog{
-    font-size:22px;
+    font-size:20px;
     color:#2F312E
   }
   .classBlog:hover{
-    font-size:22px;
+    font-size:20px;
     color:#C76F30
   }
   .blogDate{
-    font-size:22px;
+    font-size:20px;
     color:#2F312E
   }
   .etkinlikler{
     font-size: 30px;
   }
+  .indexHeaderP{
+    color: #fff;
+    font-size:48px;
+    font-weight: 750;
+    text-shadow: 2px 2px 5px black;
   }
-.badge-dark:hover{
-  background-color: #A50E38
+  .btn-xlarge {
+      padding: 16px 32px !important;
+      font-size: 32px!important;
+      border-radius: 25%!important;
+      margin-bottom: 55px!important;
+  }
+  }
+.badge-darkH:hover{
+  background-color: #A50E38;
+  text-shadow: 2px 2px 5px black;
 }
-.btn-xlarge {
-  margin-left: 50px;
-    padding: 30px 40px !important;
-    font-size: 32px!important; //change this to your desired size
-    line-height: normal!important;
-    -webkit-border-radius: 8px!important;
-       -moz-border-radius: 8px!important;
-            border-radius: 8px!important;
+.logoHidden{
+  margin-bottom: 12px;
+  margin-right: 5px;
+}
+#hiddenI {
+    display: none;
+}
+#imranCard:hover #hiddenI {
+    display: inline;
+}
+#imranCard:hover #imranHeader {
+    color:#2969AF!important;
+}
+
+#hiddenD {
+    display: none;
+}
+#damlaCard:hover #hiddenD {
+    display: inline;
+}
+#damlaCard:hover #damlaHeader {
+    color:#2969AF!important;
+}
+
+#hiddenE {
+    display: none;
+}
+#emreCard:hover #hiddenE {
+    display: inline;
+}
+#emreCard:hover #emreHeader {
+    color:#2969AF!important;
+}
+
+#hiddenM {
+    display: none;
+}
+#merveCard:hover #hiddenM {
+    display: inline;
+}
+#merveCard:hover #merveHeader {
+    color:#2969AF!important;
+}
+
+#hiddenU {
+    display: none;
+}
+#umutCard:hover #hiddenU {
+    display: inline;
+}
+#umutCard:hover #umutHeader {
+    color:#2969AF!important;
+}
+
+#hiddenEz {
+    display: none;
+}
+#ezgiCard:hover #hiddenEz {
+    display: inline;
+}
+#ezgiCard:hover #ezgiHeader{
+    color:#2969AF!important;
+}
+
+#hiddenF {
+    display: none;
+}
+#fatmaCard:hover #hiddenF {
+    display: inline;
+}
+#fatmaCard:hover #fatmaHeader {
+    color:#2969AF!important;
+}
+#mailC{
+  color:#BE5C17;
+}
+#mailC:hover{
+  color:#A50E38;
 }
