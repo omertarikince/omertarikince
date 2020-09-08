@@ -10,7 +10,13 @@ html,body
 a:hover{
   text-decoration: none!important;
 }
-#SLIDE_BG{
+.opacity{
+  opacity: 75%
+}
+.opacity:hover{
+  opacity: 100%
+}
+#indexBg{
   width: 100%;
   height: 100vh;
   background-position: center center;
@@ -18,6 +24,24 @@ a:hover{
   background-repeat: no-repeat;
   backface-visibility: hidden;
   background-image: url(bg/index.gif);
+}
+#stajyerariyorumBg{
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-image: url(bg/stajyerariyorum.jpg);
+}
+#fikrimvarBg{
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-image: url(bg/fikrimvar.jpg);
 }
 #menu{
   font-size: 18px;
@@ -63,7 +87,10 @@ a:hover{
   display: flex;
 }
 .head{
-  text-align: center;
+  text-align: center;}
+.displayNone{
+  visibility: hidden;
+  max-height: 0;
 }
 @media only screen and (min-width: 992px) {
   .nav-item {
@@ -104,8 +131,7 @@ a:hover{
       height: 800px;
   }
   .instaIMG{
-    width: 85%!important;
-    height: 85%!important;
+
   }
   .blogImg{
     width: 65%;
@@ -297,7 +323,13 @@ a:hover{
 
 @media only screen and (min-width: 992px) {
   .smlogoimg{
-    height:128px;
+    height:72px;
+  }
+  .smlogo{
+    filter: grayscale(100);
+  }
+  .smlogo:hover{
+    filter: grayscale(0);
   }
   .header{
     font-size:32px;
@@ -370,8 +402,9 @@ a:hover{
 .btn-mlarge {
     padding: 24px 32px !important;
     font-size: 32px!important;
-    border-radius: 25%!important;
+    border-radius: 100%!important;
     margin-bottom: 45px!important;
+    margin-left: 60px;
 }
 .ykaltyazi{
   font-size: 22px;
