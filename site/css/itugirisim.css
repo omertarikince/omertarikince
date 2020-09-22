@@ -7,6 +7,36 @@ html,body
     padding: 0px;
     overflow-x: hidden;
 }
+.hoverShow1 {
+  display: none;
+}
+
+.hoverWrapper:hover + .hoverShow1 {
+  display: block;
+}
+.hoverShow1:hover {
+  display: block;
+}
+.downNav {
+    border: solid #2F312E;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  	margin-bottom:3px;
+  	margin-left:2px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.hoverWrapper:hover .downNav{
+	border: solid #2F312E;
+	border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+	margin-bottom:3px;
+	margin-left:2px;
+}
 a:hover{
   text-decoration: none!important;
 }
@@ -25,15 +55,7 @@ a:hover{
   backface-visibility: hidden;
   background-image: url(bg/index.gif);
 }
-#stajyerariyorumBg{
-  width: 100%;
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  backface-visibility: hidden;
-  background-image: url(bg/stajyerariyorum.jpg);
-}
+
 #fikrimvarBg{
   width: 100%;
   height: 100vh;
@@ -108,6 +130,15 @@ a:hover{
   #mobIlan{
     display: none;
   }
+  #stajyerariyorumBg{
+    width: 100%;
+    height:100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-image: url(bg/pcBackGround.jpg);
+  }
   #ürünlerMob{
     display: none ;
   }
@@ -148,6 +179,15 @@ a:hover{
   text-align: center;}
   .dropdown-item{
     text-align: center !important;
+  }
+  #stajyerariyorumBg{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-image: url(bg/pcBackGround.jpg);
   }
   .calendari{
       width: 100%;
@@ -216,6 +256,13 @@ a:hover{
 }
 .logos{
 	padding:0 3px;
+}
+.logoswriting:hover{
+  color: #A50E38;
+}
+.blogRcP{
+  padding-top: 10px;
+  font-size: 18px;
 }
 #mail{
 	text-decoration:none;
@@ -584,4 +631,48 @@ a:hover{
 }
 #mailC:hover{
   color:#A50E38;
+}
+/* Header/Blog Title */
+.headerBlog {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.cardBlog{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
