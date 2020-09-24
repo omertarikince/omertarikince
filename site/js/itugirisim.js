@@ -11,6 +11,10 @@ $(document).ready(function(){
     $("#dropdown-menu-hakkimizda").slideToggle("normal");
 
   });
+  $("#dropdown-blog").click(function(){
+    $("#dropdown-menu-blog").slideToggle("normal");
+
+  });
 });
 $(document).ready(function () {
     $(document).click(function (event) {
@@ -57,6 +61,19 @@ return;
 return;
 
 var mydiv = $('#dropdown-menu-hakkimizda');
+if (!mydiv.is(e.target) && mydiv.has(e.target).length === 0){
+    mydiv.slideUp("normal");
+}
+});
+
+$(document).mouseup(function (e)
+{
+  if(e.target.id == "dropdown-blog")
+return;
+  if($(e.target).closest('#dropdown-blog').length)
+return;
+
+var mydiv = $('#dropdown-menu-blog');
 if (!mydiv.is(e.target) && mydiv.has(e.target).length === 0){
     mydiv.slideUp("normal");
 }
