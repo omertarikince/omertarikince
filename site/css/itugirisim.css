@@ -29,6 +29,12 @@ html,body
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+.hover:hover{
+  color:#A50E38;
+  font-size: 22px;
+  font-weight: 500;
+
+}
 .hoverWrapper:hover .downNav{
 	border: solid #2F312E;
 	border-width: 0 2px 2px 0;
@@ -366,7 +372,14 @@ a:hover{
   color: white;
   transform: rotateY(180deg);
 }
-
+.ykmail{
+  color: #C77437 !important;
+  font-size: 18px;
+}
+.ykmail:hover{
+  color:#A50E38 !important;
+  border-bottom:1px solid #A50E38;
+}
 
 @media only screen and (min-width: 992px) {
   .smlogoimg{
@@ -379,7 +392,7 @@ a:hover{
     filter: grayscale(0);
   }
   .header{
-    font-size:32px;
+    font-size:32px !important;
     font-weight: 550;
     font-style: oblique;
     color:#2F312E
@@ -398,6 +411,12 @@ a:hover{
     font-size:28px;
     font-weight: 450;
     font-style: oblique;
+    color:#2F312E
+  }
+  .header3{
+    font-size:30px;
+    font-weight: 550;
+    font-style:;
     color:#2F312E
   }
   .letter{
@@ -539,12 +558,13 @@ a:hover{
     color:#2F312E
   }
   .headerBig{
-    font-size: 26px;
+    font-size: 32px !important;
     font-weight: bold;
   }
   .ykaltyazi{
     font-size:22px;
   }
+
   .ekibimizBaslik{
     font-size:28px!important;
   }
@@ -561,6 +581,12 @@ a:hover{
     font-size:22px;
     font-weight: 450;
     font-style: oblique;
+    color:#2F312E
+  }
+  .header3{
+    font-size:24px;
+    font-weight: 550;
+    font-style:;
     color:#2F312E
   }
   .letter{
@@ -664,6 +690,10 @@ a:hover{
   background-color: #A50E38;
   text-shadow: 2px 2px 5px black;
 }
+.badge-darkT:hover{
+  background-color: #BE5D18;
+  text-shadow: 2px 2px 5px black;
+}
 .logoHidden{
   margin-bottom: 12px;
   margin-right: 5px;
@@ -751,6 +781,18 @@ a:hover{
   background: white;
 }
 
+.leftcolumn50{
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.rightcolumn50{
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-top: 30px;
+}
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
