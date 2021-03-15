@@ -1,0 +1,287 @@
+body {font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#menu{
+  font-size: 18px;
+  text-align: center;
+}
+.navbar-brand{
+  padding-left: 20px;
+}
+.site-footer {
+  text-align: center;
+  padding: 10px 0;
+}
+.site-footer .site-info {
+  font-weight: 300;
+}
+.site-footer .site-info a {
+  color: #fff;
+}
+.nav-item:hover {
+
+}
+.jumbotron{
+	background-color: #F3F4F6 !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.jumbotronr{
+	background-color: #2C3037 !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bg-nav{
+  background-color: #F1F1F0;
+}
+.bg-navr{
+  background-color: #26292E;
+}
+.container{
+  display: flex;
+}
+.head{
+  text-align: center;
+}
+.mail{
+  color: gray;
+  font-size: 18px;
+}
+.mailr{
+  color: #F3F4F6;
+  font-size: 18px;
+}
+.pmail{
+  color: gray;
+  font-size: 18px;
+}
+.pmailr{
+  color: #F3F4F6;
+  font-size: 18px;
+}
+.mail:hover{
+  color:#2C8598;
+  border-bottom:1px solid #2C8598;
+  text-decoration: none;
+}
+.mailr:hover{
+  color:#D7B54D;
+  border-bottom:1px solid #D7B54D;
+  text-decoration: none;
+}
+.siteH{
+  color:#2C8598
+}
+.siteH:hover{
+  color:#3B2C52;
+  border-bottom:1px solid #3B2C52;
+  text-decoration: none;
+}
+.siteHr{
+  color:#D7B54D
+}
+.siteHr:hover{
+  color:#2C8598;
+  border-bottom:1px solid #2C8598;
+  text-decoration: none;
+}
+@media only screen and (min-width: 992px) {
+  .nav-item {
+  padding-left: 30px;
+  }
+  .smlogo{
+    filter: grayscale(100);
+  }
+  .smlogoimg{
+    height: 100px;
+
+  }
+  .smlogo:hover{
+    filter: grayscale(0);
+  }
+  .calismalar{
+    font-size: 24px;
+  }
+  .baslik1{
+    font-size:67px;
+  }
+  .baslik2{
+    font-size: 57px;
+  }
+  .baslik3{
+    font-size:63px;
+    text-align: center;
+  }
+  .metin1{
+    font-size:24px;
+  }
+  .metin2{
+    font-size:24px;
+    font-weight: 400;
+  }
+  .calismalarr{
+    font-size: 24px;
+    color: #2C3037
+  }
+  .baslik1r{
+    font-size:67px;
+    color: #C8CCCF
+  }
+  .baslik2r{
+    font-size: 57px;
+    color: #C8CCCF
+  }
+  .baslik3r{
+    font-size:63px;
+    text-align: center;
+    color: #C8CCCF
+  }
+  .metin1r{
+    font-size:24px;
+    color: #F3F4F6
+  }
+  .metin2r{
+    font-size:24px;
+    font-weight: 400;
+    color: #F3F4F6
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-item {
+  text-align: center;
+  }
+  .smlogo{
+    filter: grayscale(100);
+  }
+  .smlogoimg{
+    height: 48px;
+
+  }
+  .smlogo:hover{
+    filter: grayscale(0);
+  }
+
+  .calismalar{
+    font-size: 20px;
+  }
+  .baslik1{
+    font-size:24px;
+    font-weight: 450;
+  }
+  .baslik2{
+    font-size: 28px;
+    font-weight: 550;
+  }
+  .baslik3{
+    font-size:34px;
+    font-weight: 650;
+    text-align: center;
+  }
+  .metin1r{
+    font-size:18px;
+    color: #F3F4F6
+  }
+  .metin2r{
+    font-size:18px;
+    color: #F3F4F6
+  }
+  .calismalarr{
+    font-size: 20px;
+    color: #2C3037
+  }
+  .baslik1r{
+    font-size:34px;
+    font-weight: 450;
+    color: #C8CCCF
+  }
+  .baslik2r{
+    font-size: 28px;
+    font-weight: 550;
+    color: #C8CCCF
+  }
+  .baslik3r{
+    font-size:34px;
+    text-align: center;
+    font-weight: 650;
+    color: #C8CCCF
+  }
+  .metin1r{
+    font-size:18px;
+    color: #F3F4F6
+  }
+  .metin2rf{
+    font-size:18px;
+    color: #F3F4F6
+  }
+  #welc{
+    padding-top: 111px;
+  }
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#hiddenM {
+    display: none;
+}
+#metinCard:hover #hiddenM {
+    display: inline;
+}
+#metinCard:hover #metinHeader {
+    color:#2969AF!important;
+}
+#hiddenT {
+    display: none;
+}
+#tuganaCard:hover #hiddenT {
+    display: inline;
+}
+#tuganaCard:hover #tuganaHeader {
+    color:#2969AF!important;
+}
+#hiddenD {
+    display: none;
+}
+#denizCard:hover #hiddenD {
+    display: inline;
+}
+#denizCard:hover #denizHeader {
+    color:#2969AF!important;
+}
+#hiddenO {
+    display: none;
+}
+#otiCard:hover #hiddenO {
+    display: inline;
+}
+#otiCard:hover #otiHeader {
+    color:#2969AF!important;
+}
+.ekibimizBaslik{
+  font-size:24px!important;
+  color:#F3F4F6
+}
+.logoHidden{
+  margin-bottom: 12px;
+  margin-right: 5px;
+}
+.card-body{
+  background-color: #2C3037;
+}
+.nav-link{
+  font-weight: bolder !important;
+  font-size: 22px !important;
+}
